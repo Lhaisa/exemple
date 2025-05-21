@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer inspirado no CEEP</title> 
+    <link rel="stylesheet" href="style.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CEEP - Sua plataforma de Aprendizado</h1>
+
+        <nav>
+            <ul>    
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#artigos">Artigos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cursos">
+            <h2>Curso em Destaque</h2>
+            <div class="card">
+                <h3>Curso de Sistemas</h3>
+                <p>Aprenda a criar sites incríveis
+                    com HTML, CSS e JavaScript.</p>
+            </div>   
+           <div class="card">
+                <h3>Curso de Vestuário</h3>
+                <p>
+                    เรียนรู้วิธีการทำเสื้อผ้าที่น่าทึ่ง</p>
+            </div>
+
+            <div class="card">
+                <h3>Curso de Química</h3>
+                <p>信じられないような実験を行う方法を学ぶ</p>
+            </div>
+
+            <div class="card">
+                <h3>Curso de Farmacia</h3>
+                <p>놀라운 치료법을 만드는 방법을 배우세요.</p>
+            </div>
+
+            <div class="card">
+                <h3>Curso de Agronegocio</h3>
+                <p>学习如何与令人难以置信的植物一起工作</p>
+            </div>
+       
+        </section>
+    </main>
+    <footer>
+        <p>&copf; 2025 - CEEP - Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();alert('Mensagem enviada com sucesso');this.reset();
+        });
+    </script>
+
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+</body>
+</html>
